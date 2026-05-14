@@ -19,6 +19,7 @@
   --orange-medium: #FFB76E;
   --orange-dark: #FF962E;
   --orange-intense: #FF8000;
+  --orange-circle: linear-gradient(135deg, var(--orange-intense) 0%, var(--orange-medium) 100%);
   --bs-link-color: #FF8000;
   --bs-link-hover-color: #FF962E;
   --bs-code-color: #FF8000;
@@ -10792,7 +10793,7 @@ header.masthead .bg-circle {
   z-index: 0;
   position: absolute;
   border-radius: 100%;
-  background: var(--orange-medium);
+  background: var(--orange-circle);
 }
 header.masthead .bg-circle-1 {
   height: 90rem;
